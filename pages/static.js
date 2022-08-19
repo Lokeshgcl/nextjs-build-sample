@@ -40,7 +40,7 @@ export default function StaticContent({ allPostsData }) {
 
 export async function getStaticProps() {
   const allPostsData = getPostsDataStatic();
-  console.log(allPostsData);
+
   return {
     props: {
       allPostsData,
